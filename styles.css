@@ -1,0 +1,104 @@
+#container{
+    height:120px;
+}
+#header{
+    height:85px;
+    background: linear-gradient(#F8F594,#D5D533);
+    padding:7px 0;
+ 
+  }
+  ul{
+    list-style: none;
+  }
+  li a{
+    padding:5px;
+    float:right;
+    text-decoration: none;
+    font-size: 17px;
+    color:#5d12e7;
+  }
+  
+  #header ul li{
+    float:left;
+    padding:0 30px;
+    height:30px;
+    border-right: 1px solid #5d12e7;
+  }
+  #header ul li:last-child{
+    border-right:none;
+  }
+ #header ul li a:hover, #header ul li a.active{
+    font-size:20px;
+    font-weight:bold;
+    color:purple;
+  }
+.brand h1{
+    float:left;
+    padding:5px;
+    color:#5d12e7;
+}
+#intro h3{
+    font-size: 30px;
+    color:orange;
+    background: linear-gradient(green,blue);
+    font-weight: normal;
+  }
+  #intro p{
+    font-size:30px;
+    background: linear-gradient(blue,pink);
+    text-align: justify;
+  }
+  .side{
+    height: 600px;
+     width: 450px;
+     border: 1px solid orange;
+     border-radius: 20px;
+     padding: 10px 30px;
+  }
+  .side h3{
+    color:#E36A03;
+    font-size: 30px;
+ 
+  }
+  .side ul{
+    padding-top: 8px;   
+ }
+  .side ul li a{
+    text-decoration: none;
+    font-size:40px;
+    color:goldenrod;
+    transition: font-size 0.3s ease;
+  }
+  #left ul{
+    padding-top: 15px;
+  }
+  #left ul li{
+    padding-bottom: 105px;
+    padding-left: 15px;
+    list-style-image:url(https://www.splitbrain.org/_static/ico/circular/ico/add.png);
+ 
+  }
+  #right ul li{
+    padding-bottom: 6px;
+    padding-left:10px;
+    list-style-image: url(https://th.bing.com/th/id/R.2f7e5f97fd43f0413638e88d39361238?rik=nBSJbUHe7nrpxA&riu=http%3a%2f%2fwww.splitbrain.org%2f_static%2fico%2fcircular%2fico%2felement_fire.png&ehk=XvxJ84UChhPH2Ogt67XPVuX0NEaVhv855mUwTN1V73w%3d&risl=&pid=ImgRaw&r=0);
+  }
+  .side ul li a:hover, .side ul li a:active{
+    text-decoration: none;
+    font-size:4 0px;
+    font-weight:bold;
+    color:purple;
+  }
+  #left{
+    float:left;
+  }
+  #right{
+    float:right;
+  }
+  .first{
+    text-align: center;
+    color:linear-gradient(blue,pink);
+    color:skyblue;
+    transform: rotate(10deg);
+  }
+  
